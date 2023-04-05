@@ -7,6 +7,9 @@ const app = express();
 // app.post()
 
 
+// use express router
+app.use('/', require('./routes'));
+
 
 
 
