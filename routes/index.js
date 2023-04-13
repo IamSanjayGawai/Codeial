@@ -16,7 +16,7 @@ router.use('/users', require('./users'));
 //
 router.get('/skills', require('./skills'));
 
-router.get('/projects', require('./projects'));
+router.get('/about', require('./about'));
 
 // it will exports router 
 module.exports = router;
