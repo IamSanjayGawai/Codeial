@@ -15,5 +15,7 @@ router.get('/sign-in', users_controller.signin)
 // calling create function from  users_controller for creating new signup 
 router.post('/create', users_controller.create)
 
+router.post('/create-session', users_controller.createSession)
+
 // it will exports router 
 module.exports = router;
